@@ -44,7 +44,7 @@ const TutorialDetail = () => {
           <div className="mt-8 grid gap-10 lg:grid-cols-[15rem_1fr]">
             <TutorialSidebar clinic={clinic} activeSection={section.slug} activeTutorial={tutorial.slug} />
 
-            <div className="min-w-0 max-w-3xl">
+            <div data-tutorial-content className="min-w-0 max-w-3xl">
               <p className="text-sm text-muted-foreground">
                 Guide {index + 1} of {section.tutorials.length}
                 {[tutorial.level, tutorial.duration].filter(Boolean).length > 0 &&

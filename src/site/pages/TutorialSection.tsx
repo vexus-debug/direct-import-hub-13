@@ -33,7 +33,7 @@ const TutorialSection = () => {
           <div className="mt-8 grid gap-10 lg:grid-cols-[15rem_1fr]">
             <TutorialSidebar clinic={clinic} activeSection={section.slug} />
 
-            <div>
+            <div data-tutorial-content>
               <p className="text-sm text-muted-foreground">
                 Topic {index + 1} of {clinic.sections.length} ·{" "}
                 {section.tutorials.length > 0
