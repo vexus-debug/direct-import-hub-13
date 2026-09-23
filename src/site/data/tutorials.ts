@@ -1289,7 +1289,7 @@ export const tutorialClinicTypes: ClinicTutorialType[] = [
     description:
       "Step-by-step guides for optometry and eye care practices: prescriptions, visual acuity records, lens stock and referrals.",
     icon: "Eye",
-    sections: emptySections(),
+    sections: eyeSections(),
   },
 ];
 
